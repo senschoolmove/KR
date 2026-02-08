@@ -162,3 +162,61 @@ td {
         font-size: 2.2rem;
     }
 }
+
+/* MOBILE RENFORCÉ NIVEAUX */
+@media (max-width: 768px) {
+
+    .intro {
+        font-size: 0.95rem;
+        padding: 0 15px;
+    }
+
+    .niveau {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .niveau.reverse {
+        flex-direction: column;
+    }
+
+    .niveau img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .niveau-text {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .niveau-text ul {
+        text-align: left;
+        padding-left: 18px;
+    }
+
+    /* TABLE RESPONSIVE */
+    table {
+        width: 100%;
+        font-size: 0.9rem;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    .cta {
+        padding: 50px 15px;
+    }
+
+    .cta a {
+        width: 100%;
+        max-width: 250px;
+    }
+}
