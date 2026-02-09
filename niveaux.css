@@ -10,7 +10,7 @@
 .hero-niveaux {
     height: 60vh;
     background: linear-gradient(rgba(206, 221, 204, 0.6), rgba(40, 218, 63, 0.6)),
-                url("img/hero-niveaux.jpg") center/cover no-repeat;
+                url("niveaux.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,3 +220,4 @@ td {
         max-width: 250px;
     }
 }
+
