@@ -10,7 +10,7 @@
 .hero-filieres {
     height: 60vh;
     background: linear-gradient(rgba(170, 179, 194, 0.6), rgba(26, 209, 26, 0.6)),
-                url("img/hero-filieres.jpg") center/cover no-repeat;
+                url(filieres.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,3 +172,4 @@
         max-width: 250px;
     }
 }
+
